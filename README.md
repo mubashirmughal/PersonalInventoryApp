@@ -1,4 +1,1 @@
-"# asdasdasd" 
-"# asdasdasd" 
-"# PersonalInventoryApp" 
-"# PersonalInventoryApp" 
+This React Native app has three main screens: "Home," "Item Detail," and "Image Detail." It uses navigation libraries to help users move around. The "Home" screen shows the inventory list, letting users add, edit, or delete items. It also uses AsyncStorage to save data, loading inventory when the app begins. Users can jump to the "Item Detail" screen to edit or add new items. On the "Item Detail" screen, users can name an item, pick an image, and save it to the inventory. The "saveItem" function gives the item a unique ID, updates existing data from AsyncStorage, and adds the new item. The "Image Detail" screen displays a large version of an item's image. Users get here by tapping an item's image on the "Home" screen.In the "App" component, the app's structure is set up for navigation. It's easy for users to manage their personal inventory, move between screens, add or edit items, view images, and keep data safe.
